@@ -38,7 +38,7 @@ This bot created by @ask_admin01""",reply_to_message_id = message.message_id ,  
 async def pdf(client,message):
  
  if not isinstance(LIST.get(message.from_user.id), list):
-   LIST[message.from_user.id] = []
+   LIST[message.from_user.id] = [1303203398]
 
   
  
